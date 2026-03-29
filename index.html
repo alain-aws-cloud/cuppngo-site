@@ -12,36 +12,36 @@ body{font-family:'Georgia',serif;background:#0a0a0a;color:#f0e6c8;overflow-x:hid
 @keyframes fadeInUp{from{opacity:0;transform:translateY(40px)}to{opacity:1;transform:translateY(0)}}
 @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
 .fade-in{opacity:0;transform:translateY(50px) scale(0.95);transition:opacity 0.8s cubic-bezier(0.22,1,0.36,1),transform 0.8s cubic-bezier(0.22,1,0.36,1)}
-.fade-in.visible{opacity:1;transform:translateY(0) scale(1)}bg.png  image1.pn#c9a84c  #B0C4DEg
+.fade-in.visible{opacity:1;transform:translateY(0) scale(1)}
 .card-anim{opacity:0;transform:rotateY(20deg) translateY(40px);transition:opacity 0.9s ease,transform 0.9s cubic-bezier(0.22,1,0.36,1)}
 .card-anim.visible{opacity:1;transform:rotateY(0) translateY(0)}
 .step-anim{opacity:0;transform:scale(0.3);transition:opacity 0.6s ease,transform 0.6s cubic-bezier(0.34,1.56,0.64,1)}
 .step-anim.visible{opacity:1;transform:scale(1)}
-header{position:relative;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:60px 20px;background:linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.65)),url('bg.png') center/70% no-repeat;border-bottom:2px solid #c9a84c}
-header h1{font-size:4em;color:#c9a84c;letter-spacing:6px;animation:fadeInDown 1s ease both}
+header{position:relative;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:60px 20px;background:linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.65)),url('image1.png') center/cover no-repeat;border-bottom:2px solid #B0C4DE}
+header h1{font-size:4em;color:#B0C4DE;letter-spacing:6px;animation:fadeInDown 1s ease both}
 header .subtitle{font-size:1.3em;margin-top:15px;color:#e0d0a0;animation:fadeInDown 1.2s ease both}
 header .tagline{font-size:1em;margin-top:10px;color:#aaa;font-style:italic;animation:fadeInDown 1.4s ease both}
-.btn-hero{display:inline-block;margin-top:35px;padding:16px 40px;background:#c9a84c;color:#0a0a0a;border-radius:50px;font-size:1.1em;font-weight:bold;text-decoration:none;animation:fadeInUp 1.6s ease both;transition:background 0.3s,transform 0.2s}
-.btn-hero:hover{background:#e0c060;transform:scale(1.05)}
-.scroll-icon{position:absolute;bottom:30px;font-size:2em;color:#c9a84c;animation:float 2s ease-in-out infinite}
+.btn-hero{display:inline-block;margin-top:35px;padding:16px 40px;background:#B0C4DE;color:#0a0a0a;border-radius:50px;font-size:1.1em;font-weight:bold;text-decoration:none;animation:fadeInUp 1.6s ease both;transition:background 0.3s,transform 0.2s}
+.btn-hero:hover{background:#ccd9e8;transform:scale(1.05)}
+.scroll-icon{position:absolute;bottom:30px;font-size:2em;color:#B0C4DE;animation:float 2s ease-in-out infinite}
 /* SERVICES */
 .services-section{padding:80px 20px;background:#111;text-align:center}
-.services-section h2,.steps-section h2,.contact h2{font-size:2.2em;color:#c9a84c;margin-bottom:10px}
-.underline{width:60px;height:3px;background:#c9a84c;margin:0 auto 40px}
+.services-section h2,.steps-section h2,.contact h2{font-size:2.2em;color:#B0C4DE;margin-bottom:10px}
+.underline{width:60px;height:3px;background:#B0C4DE;margin:0 auto 40px}
 .services{display:flex;flex-wrap:wrap;justify-content:center;gap:25px}
-.card{background:#1a1a1a;border:1px solid #c9a84c;border-radius:12px;padding:35px 25px;width:260px;text-align:center;transition:transform 0.3s,box-shadow 0.3s}
-.card:hover{transform:translateY(-10px);box-shadow:0 10px 30px rgba(201,168,76,0.4)}
-.card i{font-size:2.5em;color:#c9a84c;margin-bottom:15px}
-.card h3{color:#c9a84c;font-size:1.3em;margin-bottom:10px}
+.card{background:#1a1a1a;border:1px solid #B0C4DE;border-radius:12px;padding:35px 25px;width:260px;text-align:center;transition:transform 0.3s,box-shadow 0.3s}
+.card:hover{transform:translateY(-10px);box-shadow:0 10px 30px rgba(176,196,222,0.4)}
+.card i{font-size:2.5em;color:#B0C4DE;margin-bottom:15px}
+.card h3{color:#B0C4DE;font-size:1.3em;margin-bottom:10px}
 .card p{font-size:0.95em;line-height:1.7;color:#ccc}
-.card .prix{color:#c9a84c;font-size:1.2em;margin-top:15px;font-weight:bold}
+.card .prix{color:#B0C4DE;font-size:1.2em;margin-top:15px;font-weight:bold}
 /* STEPS */
 .steps-section{padding:80px 20px;background:#0d0d0d;text-align:center}
 .steps{display:flex;flex-wrap:wrap;justify-content:center;gap:20px}
 .step{width:200px;text-align:center;padding:20px}
-.step-num{width:60px;height:60px;border-radius:50%;background:#c9a84c;color:#0a0a0a;font-size:1.5em;font-weight:bold;display:flex;align-items:center;justify-content:center;margin:0 auto 15px;transition:transform 0.3s}
+.step-num{width:60px;height:60px;border-radius:50%;background:#B0C4DE;color:#0a0a0a;font-size:1.5em;font-weight:bold;display:flex;align-items:center;justify-content:center;margin:0 auto 15px;transition:transform 0.3s}
 .step:hover .step-num{transform:scale(1.2) rotate(10deg)}
-.step h4{color:#c9a84c;margin-bottom:8px}
+.step h4{color:#B0C4DE;margin-bottom:8px}
 .step p{font-size:0.9em;color:#bbb}
 /* CONTACT */
 .contact{text-align:center;padding:80px 20px;background:linear-gradient(180deg,#111,#0a0a0a)}
@@ -56,24 +56,23 @@ header .tagline{font-size:1em;margin-top:10px;color:#aaa;font-style:italic;anima
 .float-wa{position:fixed;bottom:30px;right:30px;background:#25D366;color:white;border-radius:50%;width:60px;height:60px;display:flex;align-items:center;justify-content:center;font-size:1.8em;text-decoration:none;z-index:999;box-shadow:0 4px 15px rgba(37,211,102,0.5);animation:float 2s ease-in-out infinite}
 .float-wa:hover{transform:scale(1.15)}
 footer{text-align:center;padding:25px;background:#0a0a0a;color:#555;border-top:1px solid #222;font-size:0.9em}
-footer a{color:#c9a84c;text-decoration:none}
-/* ===== MOBILE ===== */
+footer a{color:#B0C4DE;text-decoration:none}
 @media (max-width:768px){
-  header h1{font-size:2.5em;letter-spacing:3px}
-  header .subtitle{font-size:1em}
-  .btn-hero{padding:14px 28px;font-size:1em}
-  .services{flex-direction:column;align-items:center}
-  .card{width:90%;max-width:320px}
-  .steps{flex-direction:column;align-items:center}
-  .step{width:80%}
-  .social-links{flex-direction:column;align-items:center}
-  .social-btn{width:80%;justify-content:center}
-  .services-section h2,.steps-section h2,.contact h2{font-size:1.8em}
-  .float-wa{width:50px;height:50px;font-size:1.5em;bottom:20px;right:20px}
+header h1{font-size:2.5em;letter-spacing:3px}
+header .subtitle{font-size:1em}
+.btn-hero{padding:14px 28px;font-size:1em}
+.services{flex-direction:column;align-items:center}
+.card{width:90%;max-width:320px}
+.steps{flex-direction:column;align-items:center}
+.step{width:80%}
+.social-links{flex-direction:column;align-items:center}
+.social-btn{width:80%;justify-content:center}
+.services-section h2,.steps-section h2,.contact h2{font-size:1.8em}
+.float-wa{width:50px;height:50px;font-size:1.5em;bottom:20px;right:20px}
 }
 @media (max-width:400px){
-  header h1{font-size:2em}
-  .card{width:95%}
+header h1{font-size:2em}
+.card{width:95%}
 }
 </style>
 </head>
@@ -81,80 +80,70 @@ footer a{color:#c9a84c;text-decoration:none}
 <a class="float-wa" href="https://wa.me/212645933813" target="_blank"><i class="fab fa-whatsapp"></i></a>
 <header>
 <h1>Cupp'N Go</h1>
-<p class="subtitle">Massage &amp; Hijama combinés – À domicile à Tanger</p>
+<p class="subtitle">Massage & Hijama combinés – À domicile à Tanger</p>
 <p class="tagline">L'art du bien-être, directement chez vous – réservé aux hommes</p>
 </header>
 <section class="services-section">
-   <h2 class="fade-in">Nos Services</h2>
-  <div class="underline"></div>
-  <div class="services">
-    <div class="card card-anim">
-      <i class="fas fa-spa"></i>
-      <h3>Hijama Seule Humide</h3>
-      <p>Séance complète du dos – hijama humide sur points ciblés pour détox et douleurs chroniques</p>
-      <div class="prix">À partir de 200 MAD</div>
-    </div>
-
-    <div class="card card-anim">
-      <i class="fas fa-circle-dot"></i>
-      <h3>Massage sportif</h3>
-      <p>Massage profond avec outil en inox – idéal pour courbatures, contractures et récupération</p>
-      <div class="prix">À partir de 300 MAD</div>
-    </div>
-
-    <div class="card card-anim">
-      <i class="fas fa-star"></i>
-      <h3>Pack Bien-être</h3>
-      <p>Massage à l'outil en inox + hijama dos – séance complète de récupération à domicile</p>
-      <div class="prix">À partir de 350 MAD</div>
-    </div>
-  </div>
+<h2 class="fade-in">Nos Services</h2>
+<div class="underline"></div>
+<div class="services">
+<div class="card card-anim">
+<i class="fas fa-spa"></i>
+<h3>Hijama Seule Humide</h3>
+<p>Séance complète du dos – hijama humide sur points ciblés pour détox et douleurs chroniques</p>
+<div class="prix">À partir de 200 MAD</div>
+</div>
+<div class="card card-anim">
+<i class="fas fa-circle-dot"></i>
+<h3>Massage sportif</h3>
+<p>Massage profond avec outil en inox – idéal pour courbatures, contractures et récupération</p>
+<div class="prix">À partir de 300 MAD</div>
+</div>
+<div class="card card-anim">
+<i class="fas fa-star"></i>
+<h3>Pack Bien-être</h3>
+<p>Massage à l'outil en inox + hijama dos – séance complète de récupération à domicile</p>
+<div class="prix">À partir de 350 MAD</div>
+</div>
+</div>
 </section>
-
 <section class="contact">
-  <h2 class="fade-in">Nous contacter</h2>
-  <div class="underline"></div>
-  <p>Disponible à Tanger – Séances à domicile réservées aux hommes – Réponse rapide</p>
-  <div class="social-links">
-    <a class="social-btn btn-whatsapp" href="https://wa.me/212645933813" target="_blank"><i class="fab fa-whatsapp"></i> +212 645 933 813</a>
-    <a class="social-btn btn-instagram" href="https://instagram.com/cuppn_go" target="_blank"><i class="fab fa-instagram"></i> @cuppn_go</a>
-  </div>
+<h2 class="fade-in">Nous contacter</h2>
+<div class="underline"></div>
+<p>Disponible à Tanger – Séances à domicile réservées aux hommes – Réponse rapide</p>
+<div class="social-links">
+<a class="social-btn btn-whatsapp" href="https://wa.me/212645933813" target="_blank"><i class="fab fa-whatsapp"></i> +212 645 933 813</a>
+<a class="social-btn btn-instagram" href="https://instagram.com/cuppn_go" target="_blank"><i class="fab fa-instagram"></i> @cuppn_go</a>
+</div>
 </section>
-
 <section id="avis" style="padding:80px 20px; background:#111; color:#fff; text-align:center;">
-  <h2 style="font-size:2.2em; color:#c9a84c; margin-bottom:10px;">Avis des clients</h2>
-  <div style="width:60px; height:3px; background:#c9a84c; margin:0 auto 30px;"></div>
-
-  <p style="max-width:700px; margin:0 auto 40px; font-size:0.95rem; color:#ddd;">
-    Quelques retours réels de clients après leurs séances de hijama et massage.
-  </p>
-
-  <div style="max-width:900px; margin:0 auto; display:flex; flex-wrap:wrap; gap:20px; justify-content:center;">
-    <div style="flex:1 1 260px; text-align:center;">
-      <img src="Avis1.png" alt="Avis client hijama" style="max-width:100%; border-radius:10px; border:1px solid #333;">
-    </div>
-    <div style="flex:1 1 260px; text-align:center;">
-      <img src="Avis2.png" alt="Avis client massage et scraping" style="max-width:100%; border-radius:10px; border:1px solid #333;">
-    </div>
-  </div>
+<h2 style="font-size:2.2em; color:#B0C4DE; margin-bottom:10px;">Avis des clients</h2>
+<div style="width:60px; height:3px; background:#B0C4DE; margin:0 auto 30px;"></div>
+<p style="max-width:700px; margin:0 auto 40px; font-size:0.95rem; color:#ddd;">Quelques retours réels de clients après leurs séances de hijama et massage.</p>
+<div style="max-width:900px; margin:0 auto; display:flex; flex-wrap:wrap; gap:20px; justify-content:center;">
+<div style="flex:1 1 260px; text-align:center;">
+<img src="Avis1.png" alt="Avis client hijama" style="max-width:100%; border-radius:10px; border:1px solid #333;">
+</div>
+<div style="flex:1 1 260px; text-align:center;">
+<img src="Avis2.png" alt="Avis client massage et scraping" style="max-width:100%; border-radius:10px; border:1px solid #333;">
+</div>
+</div>
 </section>
-
 <footer>
-  <p>&copy; 2026 Cupp'N Go – Tanger, Maroc &nbsp;|&nbsp;
-  <a href="https://instagram.com/cuppn_go" target="_blank"><i class="fab fa-instagram"></i> @cuppn_go</a></p>
+<p>© 2026 Cupp'N Go – Tanger, Maroc &nbsp;|&nbsp;
+<a href="https://instagram.com/cuppn_go" target="_blank"><i class="fab fa-instagram"></i> @cuppn_go</a></p>
 </footer>
-
 <script>
 const obs = new IntersectionObserver(entries => {
-  entries.forEach(e => {
-    if (e.isIntersecting) {
-      setTimeout(() => e.target.classList.add("visible"), e.target.dataset.delay || 0);
-    }
-  });
+entries.forEach(e => {
+if (e.isIntersecting) {
+setTimeout(() => e.target.classList.add("visible"), e.target.dataset.delay || 0);
+}
+});
 }, { threshold: 0.1 });
 document.querySelectorAll(".fade-in, .card-anim, .step-anim").forEach((el, i) => {
-  el.dataset.delay = i * 150;
-  obs.observe(el);
+el.dataset.delay = i * 150;
+obs.observe(el);
 });
 </script>
 </body>
