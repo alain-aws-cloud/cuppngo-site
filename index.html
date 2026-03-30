@@ -24,18 +24,23 @@ header .tagline{font-size:1em;margin-top:10px;color:#aaa;font-style:italic;anima
 .btn-hero{display:inline-block;position:absolute;bottom:30px;margin-top:0;padding:16px 40px;background:#B0C4DE;color:#2e2b2b;border-radius:50px;font-size:1.1em;font-weight:bold;text-decoration:none;animation:fadeInUp 1.6s ease both;transition:background 0.3s,transform 0.2s}
 .btn-hero:hover{background:#ccd9e8;transform:scale(1.05)}
 .scroll-icon{position:absolute;bottom:30px;font-size:2em;color:#B0C4DE;animation:float 2s ease-in-out infinite}
-/* SERVICES */
+.avis-google-section{padding:40px 20px;background:#111;text-align:center}
+.avis-btns{display:flex;flex-wrap:wrap;justify-content:center;gap:15px}
+.btn-avis{display:inline-flex;align-items:center;gap:10px;padding:14px 28px;border-radius:50px;font-size:1em;font-weight:bold;text-decoration:none;transition:transform 0.2s,box-shadow 0.3s}
+.btn-google{background:#fff;color:#333;box-shadow:0 4px 15px rgba(255,255,255,0.2)}
+.btn-google:hover{transform:scale(1.05);box-shadow:0 6px 20px rgba(255,255,255,0.3)}
+.btn-review{background:#4285F4;color:#fff;box-shadow:0 4px 15px rgba(66,133,244,0.4)}
+.btn-review:hover{transform:scale(1.05);box-shadow:0 6px 20px rgba(66,133,244,0.6)}
 .services-section{padding:80px 20px;background:#111;text-align:center}
 .services-section h2,.steps-section h2,.contact h2{font-size:2.2em;color:#B0C4DE;margin-bottom:10px}
 .underline{width:60px;height:3px;background:#B0C4DE;margin:0 auto 40px}
-.services{display:flex;flex-wrap:wrap;justify-content:center;gap:25px}
+.services{display:flex;flex-wrap:wrap;justify-content:center;gap:25px;max-width:100%}
 .card{background:#1a1a1a;border:1px solid #B0C4DE;border-radius:12px;padding:35px 25px;width:260px;text-align:center;transition:transform 0.3s,box-shadow 0.3s}
 .card:hover{transform:translateY(-10px);box-shadow:0 10px 30px rgba(176,196,222,0.4)}
 .card i{font-size:2.5em;color:#B0C4DE;margin-bottom:15px}
 .card h3{color:#B0C4DE;font-size:1.3em;margin-bottom:10px}
 .card p{font-size:0.95em;line-height:1.7;color:#ccc}
 .card .prix{color:#B0C4DE;font-size:1.2em;margin-top:15px;font-weight:bold}
-/* STEPS */
 .steps-section{padding:80px 20px;background:#0d0d0d;text-align:center}
 .steps{display:flex;flex-wrap:wrap;justify-content:center;gap:20px}
 .step{width:200px;text-align:center;padding:20px}
@@ -43,8 +48,7 @@ header .tagline{font-size:1em;margin-top:10px;color:#aaa;font-style:italic;anima
 .step:hover .step-num{transform:scale(1.2) rotate(10deg)}
 .step h4{color:#B0C4DE;margin-bottom:8px}
 .step p{font-size:0.9em;color:#bbb}
-/* CONTACT */
-.contact{text-align:center;padding:80px 20px;background:background:linear-gradient(180deg,#111,#2e2b2b)}
+.contact{text-align:center;padding:80px 20px;background:linear-gradient(180deg,#111,#2e2b2b)}
 .contact p{color:#bbb;margin-bottom:10px}
 .social-links{display:flex;justify-content:center;gap:20px;margin-top:30px}
 .social-btn{display:inline-flex;align-items:center;gap:10px;padding:14px 30px;border-radius:50px;font-size:1.1em;text-decoration:none;font-weight:bold;transition:transform 0.2s,box-shadow 0.2s}
@@ -52,7 +56,6 @@ header .tagline{font-size:1em;margin-top:10px;color:#aaa;font-style:italic;anima
 .btn-whatsapp:hover{background:#1ebe5d;transform:scale(1.05)}
 .btn-instagram{background:linear-gradient(45deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);color:white;box-shadow:0 4px 20px rgba(220,39,67,0.4)}
 .btn-instagram:hover{transform:scale(1.05);box-shadow:0 6px 25px rgba(220,39,67,0.6)}
-/* FLOAT BUTTONS */
 .float-wa{position:fixed;bottom:30px;right:30px;background:#25D366;color:white;border-radius:50%;width:60px;height:60px;display:flex;align-items:center;justify-content:center;font-size:1.8em;text-decoration:none;z-index:999;box-shadow:0 4px 15px rgba(37,211,102,0.5);animation:float 2s ease-in-out infinite}
 .float-wa:hover{transform:scale(1.15)}
 footer{text-align:center;padding:25px;background:#2e2b2b;color:#555;border-top:1px solid #222;font-size:0.9em}
@@ -60,7 +63,7 @@ footer a{color:#B0C4DE;text-decoration:none}
 @media (max-width:768px){
 header h1{font-size:2.5em;letter-spacing:3px}
 header{background-size:100% auto !important;background-position:70% center;}
-  header .subtitle{font-size:1em}
+header .subtitle{font-size:1em}
 .btn-hero{padding:14px 28px;font-size:1em;bottom:100px;}
 .services{flex-direction:column;align-items:center}
 .card{width:90%;max-width:320px}
@@ -70,6 +73,8 @@ header{background-size:100% auto !important;background-position:70% center;}
 .social-btn{width:80%;justify-content:center}
 .services-section h2,.steps-section h2,.contact h2{font-size:1.8em}
 .float-wa{width:50px;height:50px;font-size:1.5em;bottom:20px;right:20px}
+.avis-btns{flex-direction:column;align-items:center}
+.btn-avis{width:80%;justify-content:center}
 }
 @media (max-width:400px){
 header h1{font-size:2em}
@@ -78,29 +83,34 @@ header h1{font-size:2em}
 </style>
 </head>
 <body>
-<a class="float-wa" href="https://wa.me/212645933813" target="_blank"><i class="fab fa-whatsapp"></i></a>
-<header>
+<a href="https://wa.me/212645933813" class="float-wa"><i class="fab fa-whatsapp"></i></a>
 
+<header>
+<h1>Cupp'N Go</h1>
 <p class="subtitle">Massage & Hijama combinés – À domicile à Tanger</p>
 <p class="tagline">L'art du bien-être, directement chez vous – réservé aux hommes</p>
-  <a class="btn-hero" href="https://wa.me/212645933813" target="_blank">
-    <i class="fab fa-whatsapp"></i> Je me déplace chez vous – Réserver
-  </a>
+<a href="https://wa.me/212645933813" class="btn-hero">Je me déplace chez vous – Réserver</a>
 </header>
 
-</header>
+<section class="avis-google-section">
+<div class="avis-btns">
+<a href="https://maps.app.goo.gl/hyeA2kA7gAQP2AHbA" target="_blank" class="btn-avis btn-google">⭐ Voir les avis Google</a>
+<a href="https://g.page/r/CVwceLhp5snOEBM/review" target="_blank" class="btn-avis btn-review">✍️ Laisser un avis</a>
+</div>
+</section>
+
 <section class="services-section">
 <h2 class="fade-in">Nos Services</h2>
 <div class="underline"></div>
 <div class="services">
 <div class="card card-anim">
-<i class="fas fa-spa"></i>
+<i class="fas fa-star"></i>
 <h3>Hijama Seule Humide</h3>
 <p>Séance complète du dos – hijama humide sur points ciblés pour détox et douleurs chroniques</p>
 <div class="prix">À partir de 200 MAD</div>
 </div>
 <div class="card card-anim">
-<i class="fas fa-circle-dot"></i>
+<i class="fas fa-spa"></i>
 <h3>Massage sportif</h3>
 <p>Massage profond avec outil en inox – idéal pour courbatures, contractures et récupération</p>
 <div class="prix">À partir de 300 MAD</div>
@@ -113,6 +123,7 @@ header h1{font-size:2em}
 </div>
 </div>
 </section>
+
 <section class="contact">
 <h2 class="fade-in">Nous contacter</h2>
 <div class="underline"></div>
@@ -122,23 +133,11 @@ header h1{font-size:2em}
 <a class="social-btn btn-instagram" href="https://instagram.com/cuppn_go" target="_blank"><i class="fab fa-instagram"></i> @cuppn_go</a>
 </div>
 </section>
-<section id="avis" style="padding:80px 20px; background:#111; color:#fff; text-align:center;">
-<h2 style="font-size:2.2em; color:#B0C4DE; margin-bottom:10px;">Avis des clients</h2>
-<div style="width:60px; height:3px; background:#B0C4DE; margin:0 auto 30px;"></div>
-<p style="max-width:700px; margin:0 auto 40px; font-size:0.95rem; color:#ddd;">Quelques retours réels de clients après leurs séances de hijama et massage.</p>
-<div style="max-width:900px; margin:0 auto; display:flex; flex-wrap:wrap; gap:20px; justify-content:center;">
-<div style="flex:1 1 260px; text-align:center;">
-<img src="Avis1.png" alt="Avis client hijama" style="max-width:100%; border-radius:10px; border:1px solid #333;">
-</div>
-<div style="flex:1 1 260px; text-align:center;">
-<img src="Avis2.png" alt="Avis client massage et scraping     <div style="margin-top:30px;display:flex;flex-wrap:wrap;justify-content:center;gap:15px;">       <a href="https://maps.app.goo.gl/hyeA2kA7gAQP2AHbA" target="_blank" style="display:inline-flex;align-items:center;gap:10px;padding:14px 28px;background:#fff;color:#333;border-radius:50px;font-size:1em;font-weight:bold;text-decoration:none;box-shadow:0 4px 15px rgba(255,255,255,0.2);transition:transform 0.2s;">&#11088; Voir les avis Google</a>       <a href="https://g.page/r/CVwceLhp5snOEBM/review" target="_blank" style="display:inline-flex;align-items:center;gap:10px;padding:14px 28px;background:#4285F4;color:#fff;border-radius:50px;font-size:1em;font-weight:bold;text-decoration:none;box-shadow:0 4px 15px rgba(66,133,244,0.4);transition:transform 0.2s;">&#9997;&#65039; Laisser un avis</a>     </div>" style="max-width:100%; border-radius:10px; border:1px solid #333;">
-</div>
-</div>
-</section>
+
 <footer>
-<p>© 2026 Cupp'N Go – Tanger, Maroc &nbsp;|&nbsp;
-<a href="https://instagram.com/cuppn_go" target="_blank"><i class="fab fa-instagram"></i> @cuppn_go</a></p>
+<p>© 2026 Cupp'N Go – Tanger, Maroc  |  <a href="https://instagram.com/cuppn_go">@cuppn_go</a></p>
 </footer>
+
 <script>
 const obs = new IntersectionObserver(entries => {
 entries.forEach(e => {
